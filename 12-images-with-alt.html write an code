@@ -13,17 +13,17 @@
         </header>
 
         <section>
-            <h2>Example 1: Informative Image</h2>
+            <h2> Informative Image</h2>
             <figure>
-                <figcaption>Figure 1: Visual preview of a completed front-end web development project.</figcaption>
+                <figcaption> Visual preview of a completed front-end web development project.</figcaption>
             </figure>
         </section>
 
         <section>
             <h2>Example 2: Decorative or Contextual Image</h2>
             <figure>
-                <img src="code-snippet.png" alt="Visual code snippet highlighting semantic HTML5 tags like header, main, and footer inside VS Code.">
-                <figcaption>Figure 2: Clean and structured HTML5 semantic markup.</figcaption>
+                <img src="------------------" >
+                <figcaption> Clean and structured HTML5 semantic markup.</figcaption>
             </figure>
         </section>
 
