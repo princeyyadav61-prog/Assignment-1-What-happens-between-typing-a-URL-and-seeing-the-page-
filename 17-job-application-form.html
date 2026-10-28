@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Job Application Form – Prince Yadav – HTML & CSS course assignment">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form – Prince Yadav</title>
+ 
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Job Application Form</h1>
+        </header>
+
+        <form action="#" method="POST" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <div class="form-group">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required placeholder="Enter your full legal name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required placeholder="name@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="9876543210">
+                </div>
+
+                <div class="form-group">
+                    <label for="location">Current City / Location:</label>
+                    <input type="text" id="location" name="location" placeholder="e.g. Bareilly, Uttar Pradesh">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Position Details</legend>
+
+                <div class="form-group">
+                    <label for="position">Applying For Position:</label>
+                    <select id="position" name="position" required>
+                        <option value="" disabled selected>-- Select a role --</option>
+                        <option value="frontend-dev">Front-End Developer (HTML/CSS/JS)</option>
+                        <option value="ai-intern">AI & Software Engineering Intern</option>
+                        <option value="fullstack-dev">Full-Stack Developer</option>
+                        <option value="ui-ux">UI/UX Designer</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="startdate">Available Start Date:</label>
+                    <input type="date" id="startdate" name="startdate" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="portfolio">Portfolio or GitHub URL:</label>
+                    <input type="url" id="portfolio" name="portfolio" placeholder="https://github.com/yourusername">
+                </div>
+            </fieldset>
+
+            
+            <fieldset>
+                <legend>Qualifications & Resume</legend>
+
+                <div class="form-group">
+                    <label for="experience">Years of Experience:</label>
+                    <select id="experience" name="experience">
+                        <option value="fresher">Fresher / 0 Years</option>
+                        <option value="1-2">1 - 2 Years</option>
+                        <option value="3-5">3 - 5 Years</option>
+                        <option value="5plus">5+ Years</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="resume">Upload Resume (PDF or DOCX):</label>
+                    <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="coverletter">Cover Letter / Additional Notes:</label>
+                    <textarea id="coverletter" name="coverletter" rows="4" placeholder="Tell us why you would be a great fit for this role..."></textarea>
+                </div>
+            </fieldset>
+
+            
+            <fieldset>
+                <legend>Submission Agreement</legend>
+                <div class="form-group checkbox-single">
+                    <input type="checkbox" id="declaration" name="declaration" required>
+                    <label for="declaration">I certify that all information submitted in this application is true and complete.</label>
+                </div>
+            </fieldset>
+
+            <div class="button-group">
+                <button type="submit">Submit Application</button>
+                <button type="reset">Clear Form</button>
+            </div>
+        </form>
+
+        <div class="nav-link">
+            <p><a href="16-student-registration-form.html">← Back to Student Registration Form</a></p>
+        </div>
+    </main>
+</body>
+</html>
