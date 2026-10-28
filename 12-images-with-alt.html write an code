@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Working with images and alt attributes – Prince Yadav – HTML & CSS course assignment">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images with Alt Text – Prince Yadav</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Working with Images and Alt Text</h
+        </header>
+
+        <section>
+            <h2>Example 1: Informative Image</h2>
+            <figure>
+                <figcaption>Figure 1: Visual preview of a completed front-end web development project.</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Example 2: Decorative or Contextual Image</h2>
+            <figure>
+                <img src="code-snippet.png" alt="Visual code snippet highlighting semantic HTML5 tags like header, main, and footer inside VS Code.">
+                <figcaption>Figure 2: Clean and structured HTML5 semantic markup.</figcaption>
+            </figure>
+        </section>
+
+        <nav class="nav-links">
+            <p><a href="portfolio-navigation.html">← Back to Portfolio</a></p>
+        </nav>
+    </main>
+</body>
+</html>
