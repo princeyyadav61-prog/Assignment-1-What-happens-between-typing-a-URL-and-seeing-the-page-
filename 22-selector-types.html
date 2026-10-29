@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector Types</title>
+    <style>
+       
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            color: #34495e;
+            margin-top: 25px;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+       
+        .highlight {
+            background-color: #fff3cd;
+            padding: 3px 6px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .card {
+            border: 1px solid #dcdde1;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 6px;
+            background-color: #f8f9fa;
+        }
+
+       
+        #unique-header {
+            color: #e74c3c;
+            font-style: italic;
+        }
+
+       
+        input[type="text"] {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 100%;
+            margin-top: 5px;
+        }
+
+       
+        .list-container ul li {
+            color: #2980b9;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>CSS Selector Types Guide</h1>
+        <p>This page showcases the different types of CSS selectors used to target and style HTML elements.</p>
+
+        <h2 id="unique-header">1. ID Selector (#id)</h2>
+        <p>Used to target a single, unique element on the page. IDs must be unique per document.</p>
+
+        <h2>2. Class Selector (.class)</h2>
+        <p>Used to target multiple elements sharing the same class. For example, <span class="highlight">this text is highlighted</span> using a class.</p>
+
+        <div class="card">
+            <h3>Card Element (Class Selector)</h3>
+            <p>This entire box is styled using a shared <code>.card</code> class.</p>
+        </div>
+
+        <h2>3. Element Selector (tag)</h2>
+       
+        <h2>4. Attribute Selector ([attr])</h2>
+        <p>Targets elements based on the presence or value of an HTML attribute:</p>
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" placeholder="Type here...">
+
+        <h2>5. Descendant Selector</h2>
+        <div class="list-container">
+            <p>List items nested inside this container are styled specifically:</p>
+            <ul>
+                <li>First nested item</li>
+                <li>Second nested item</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
